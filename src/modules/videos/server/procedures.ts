@@ -155,7 +155,8 @@ export const videosRouter = createTRPCRouter({
     const upload = await mux.video.uploads.create({
       new_asset_settings: {
         passthrough: userId,
-        playback_policy: "public",
+        playback_policy: ["public"],
+      
         input: [
           {
             generated_subtitles: [

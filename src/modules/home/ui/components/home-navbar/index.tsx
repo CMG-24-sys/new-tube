@@ -6,6 +6,7 @@ import { SidebarTrigger } from "@/components/ui/sidebar";
 import { AuthButton } from "../../auth/ui/components/auth-button";
 
 import { SearchInput } from "./search-input";
+// import { StudioUploadModal } from "@/modules/studio/ui/components/studio-upload-modal";
 
 export const HomeNavbar = () => {
   return (
@@ -26,6 +27,7 @@ export const HomeNavbar = () => {
           <SearchInput />
         </div>
         <div className="flex-shrink-0 items-center flex gap-4">
+            {/* <StudioUploadModal /> */}
             <AuthButton />
         </div>
       </div>

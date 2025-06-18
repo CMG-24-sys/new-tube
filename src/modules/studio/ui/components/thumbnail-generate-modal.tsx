@@ -1,4 +1,4 @@
-import { ResponsiveModal } from "@/components/resonsive-modal";
+import { ResponsiveModal } from "@/components/responsive-modal";
 import {
   Form,
   FormControl,
